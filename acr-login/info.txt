@@ -1,0 +1,3 @@
+Il file acr-login.bat principale automatizza il login a tutti gli Azure Container Registry (ACR) degli ambienti aziendali,
+disabilita la visualizzazione dei comandi (@echo off) ,stampa un messaggio di avvio, esegue in sequenza quattro file di login separati (prod, uat, sit, test),
+ciascuno dei quali utilizza la CLI di Azure per autenticarsi al rispettivo registry, e al termine mostra un messaggio di completamento e attende che l’utente prema un tasto.

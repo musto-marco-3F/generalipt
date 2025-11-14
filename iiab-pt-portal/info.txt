@@ -1,0 +1,3 @@
+Il file .npmrc configura npm per usare i registry privati di Azure DevOps per i pacchetti scoped @rgi e @generaligroup e richiede sempre l’autenticazione.
+Quando lanci npx vsts-npm-auth -F -C .npmrc, viene generato un token di accesso che viene salvato nel .npmrc,
+così npm può installare o pubblicare pacchetti interni senza ulteriori richieste di login.
